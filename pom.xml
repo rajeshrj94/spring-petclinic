@@ -37,6 +37,14 @@
     </repository>
   </distributionManagement>
 
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-100-1-10-105-snapshots</name>
+        <url>http://100.27.27.88:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
